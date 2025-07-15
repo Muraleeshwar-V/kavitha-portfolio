@@ -306,21 +306,21 @@
     <h2>Projects</h2>
     <div class="projects-grid">
       <div class="project-card">
-        <div class="project-image" style="background: url('images/cloud.jpg') center/cover no-repeat;"></div>
+        <div class="project-image" style="background: url('cloud.jpg') center/cover no-repeat;"></div>
         <div class="project-content">
           <h3>Cloud Computing Framework</h3>
           <p>Developed a cloud architecture for educational deployment, focusing on scalable e-learning systems.</p>
         </div>
       </div>
       <div class="project-card">
-        <div class="project-image" style="background: url('images/sentiment.png') center/cover no-repeat;"></div>
+        <div class="project-image" style="background: url('sentiment.png') center/cover no-repeat;"></div>
         <div class="project-content">
           <h3>Sentiment Analysis Tool</h3>
           <p>Created a sentiment analysis model to study student feedback and improve training modules.</p>
         </div>
       </div>
       <div class="project-card">
-        <div class="project-image" style="background: url('images/data-privacy.jpg') center/cover no-repeat;"></div>
+        <div class="project-image" style="background: url('data-privacy.jpg') center/cover no-repeat;"></div>
         <div class="project-content">
           <h3>Data Privacy Research</h3>
           <p>Published research on data privacy techniques for academic institutions transitioning to cloud storage.</p>
