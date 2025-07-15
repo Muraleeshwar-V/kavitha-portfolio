@@ -252,47 +252,27 @@
       0% { opacity: 0; transform: translateY(40px); }
       100% { opacity: 1; transform: translateY(0); }
     }
-    .contact-card {
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid #333;
-  border-left: 4px solid #03dac5;
-  padding: 30px;
-  border-radius: 8px;
-  line-height: 1.7em;
-  color: #ddd;
-  font-size: 1.05em;
-  animation: fadeInUp 1s ease forwards;
-}
-
-.contact-card p {
-  margin: 10px 0;
-}
-
-.contact-card a {
-  color: #03dac5;
-  text-decoration: none;
-}
-
-.contact-card a:hover {
-  text-decoration: underline;
-}
-
-.social-links {
+    .social-links {
   margin-top: 20px;
 }
 
 .social-links a {
   display: inline-block;
   margin-right: 15px;
-  font-size: 1.8em;
-  transition: transform 0.3s, color 0.3s;
   color: #bb86fc;
-  text-decoration: none;
+  transition: transform 0.3s, color 0.3s;
 }
 
 .social-links a:hover {
   color: #03dac5;
   transform: translateY(-4px);
+}
+
+.social-links svg {
+  vertical-align: middle;
+  width: 28px;
+  height: 28px;
+  fill: currentColor;
 }
 
   </style>
@@ -414,7 +394,6 @@
   <section id="contact">
   <h2>Contact</h2>
   <div class="contact-card">
-    <p><strong>📅 From:</strong> May 1st Onwards – Academy of Skill & Knowledge</p>
     <p><strong>📧 Mail:</strong> <a href="mailto:contact@askgrove.in">contact@askgrove.in</a></p>
     <p><strong>🌐 Website:</strong> <a href="https://askgrove.in" target="_blank">askgrove.in</a></p>
     <p><strong>📞 Mobile:</strong> (+91) 95788 23663, 90251 07080</p>
@@ -423,14 +402,29 @@
       Ramanathapuram – 623503
     </p>
     <div class="social-links">
-      <a href="https://www.linkedin.com" target="_blank" title="LinkedIn">🔗</a>
-      <a href="https://www.facebook.com" target="_blank" title="Facebook">📘</a>
-      <a href="https://www.instagram.com" target="_blank" title="Instagram">📸</a>
-      <a href="https://wa.me/919578823663" target="_blank" title="WhatsApp">💬</a>
+      <a href="https://www.bing.com/ck/a?!&&p=90f52f387c59a416433c8371819afe551edffa1454db08b85fe1a02682bbba2bJmltdHM9MTc1MjUzNzYwMA&ptn=3&ver=2&hsh=4&fclid=17a0adbc-e347-6b56-3019-bb95e2386afd&psq=askgrove&u=a1aHR0cHM6Ly93d3cubGlua2VkaW4uY29tL2ZlZWQvdXBkYXRlL3VybjpsaTphY3Rpdml0eTo3MzQ2MDA3OTM4Njg5Mzc2MjU3Lw&ntb=1" target="_blank" title="LinkedIn">
+        <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+          <path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0 8h5V24H0V8zm7.5 0H12v2.5h.07c.5-1 1.75-2.5 4.43-2.5 4.73 0 5.6 3.12 5.6 7.2V24h-5V15c0-2.16-.04-4.93-3-4.93-3 0-3.46 2.35-3.46 4.78V24H7.5V8z"/>
+        </svg>
+      </a>
+      <a href="https://www.facebook.com" target="_blank" title="Facebook">
+        <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+          <path d="M22 12a10 10 0 1 0-11.6 9.87v-7h-2v-2.87h2v-2.2c0-2 1.2-3.1 3-3.1.87 0 1.8.15 1.8.15v2h-1c-1 0-1.3.63-1.3 1.27v1.88h2.2L15 15.87h-2v7A10 10 0 0 0 22 12"/>
+        </svg>
+      </a>
+      <a href="https://www.instagram.com" target="_blank" title="Instagram">
+        <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+          <path d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm10 2a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3h10zm-5 3a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm4.5-2.75a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5z"/>
+        </svg>
+      </a>
+      <a href="https://wa.me/919578823663" target="_blank" title="WhatsApp">
+        <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+          <path d="M20 4a10 10 0 0 0-17 7.53A10 10 0 0 0 4 19l-1 4 4-1a10 10 0 0 0 5 1c5.52 0 10-4.48 10-10a9.94 9.94 0 0 0-2-6zm-8 16a8 8 0 0 1-4.09-1.11l-.29-.17-2.41.61.64-2.35-.19-.31A8 8 0 1 1 12 20zm4.36-5.64-.95-.47c-.26-.13-.45-.19-.64.1l-.47.62c-.19.25-.34.27-.63.14a6.52 6.52 0 0 1-3.2-3.2c-.14-.29-.11-.44.14-.63l.62-.47c.3-.19.23-.38.1-.64l-.47-.95c-.24-.48-.4-.47-.69-.47h-.59c-.25 0-.51.07-.77.32a2.56 2.56 0 0 0-.82 1.92c0 1.12.7 2.17 1.53 3.09.94 1.02 2.18 1.75 3.36 2.12.35.12.66.23.95.23a2.56 2.56 0 0 0 1.87-.82c.25-.26.32-.52.32-.77v-.59c0-.29.01-.45-.47-.69z"/>
+        </svg>
+      </a>
     </div>
   </div>
 </section>
-
 
   <footer>
     &copy; <?php echo date("Y"); ?> By Muraleeshwar. All rights reserved @ WizardHub.
